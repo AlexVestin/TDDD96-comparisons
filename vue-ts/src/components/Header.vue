@@ -1,6 +1,5 @@
 <template>
-  <div class="hello">
-    <header class="header">
+ <header class="header">
       <h1>VUE</h1>
       <div class="btn-container">
         <Button label="Sign up" className="color2"></Button>
@@ -10,7 +9,6 @@
     <h1>{{ msg }}</h1>
   </div>
 </template>
-
 <script>
 import Button from "./Button.vue";
 

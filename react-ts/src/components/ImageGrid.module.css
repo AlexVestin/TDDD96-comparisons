@@ -1,0 +1,23 @@
+.text {
+    text-align: center;
+  }
+  
+.container {
+    background-color: #efefef;
+    margin: 30px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: ". ." ". ." ". .";
+    justify-items: center;
+    align-items: center;
+}
+
+.container img {
+    display: block;
+    max-width: 600px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}

@@ -42,7 +42,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .grid-container {
-  
 }
 
 .text {
@@ -50,7 +49,7 @@ export default {
 }
 
 .grid-container {
-    background-color: #efefef;
+  background-color: #efefef;
   margin: 30px;
   padding: 20px;
   display: grid;
