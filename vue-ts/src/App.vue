@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header msg="Welcome to Your Vue.js App"/>
     <ImageGrid></ImageGrid>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
 import ImageGrid from './components/ImageGrid.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
+    Header,
     ImageGrid
   }
 }

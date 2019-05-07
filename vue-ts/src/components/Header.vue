@@ -1,9 +1,10 @@
 <template>
- <header class="header">
+  <div>
+    <header class="header">
       <h1>VUE</h1>
       <div class="btn-container">
-        <Button label="Sign up" className="color2"></Button>
-        <Button label="Sign in" className="color1"></Button>
+        <Button label="Sign up" class="color2"></Button>
+        <Button label="Sign in" class="color1"></Button>
       </div>
     </header>
     <h1>{{ msg }}</h1>
@@ -25,7 +26,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 h1 {
   text-align: center;
 }
