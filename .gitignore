@@ -1,3 +1,6 @@
 react-ts/node_modules
 vue-ts/node_modules
 angular-ts/node_modules
+angular-ts/dist
+vue-ts/dist
+react/build
